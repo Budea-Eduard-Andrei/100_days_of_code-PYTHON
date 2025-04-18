@@ -1,5 +1,5 @@
 #https://reeborg.cs20.ca/?lang=en&mode=python&menu=%2Fworlds%2Fmenus%2Fsk_menu.json&name=Maze&url=%2Fworlds%2Ftutorial_en%2Fmaze1.json
-#Today i learnt new skills and i made Reeborg get to the end of the maze in every single sittuation possible. Bellow is the code that i made. 
+#Today i learned new skills and i made Reeborg the robot get to the end of the maze in every single sittuation possible. Bellow is the code that i made. 
 
 def right():
     turn_left()
