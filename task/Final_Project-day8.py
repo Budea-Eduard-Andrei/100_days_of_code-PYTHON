@@ -25,7 +25,9 @@ caesar(text, shift)
 
 question = input("Type 'yes' if you want to go again. Otherwise, type 'no'.\n").lower()
 while question == "yes":
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
     caesar(text, shift)
     question = input("Type 'yes' if you want to go again. Otherwise, type 'no'.\n").lower()
+print("Goodbye")
